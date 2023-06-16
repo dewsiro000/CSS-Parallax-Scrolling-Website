@@ -20,7 +20,7 @@ header {
     width: 100%;
     padding: 30px 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     z-index: 100;
 }
@@ -29,6 +29,7 @@ header {
     font-size: 2em;
     color: #359381;
     pointer-events: none;
+    margin-right: 280px;
 }
 
 .navigation a {
@@ -57,7 +58,8 @@ header {
 #text {
     position: absolute;
     font-size: 5em;
-    color: #333;
+    color: #FFF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 
 .parallax img {
@@ -66,4 +68,22 @@ header {
     left: 0;
     width: 100%;
     pointer-events: none;
+}
+
+.sec {
+    position: relative;
+    background: #003329;
+    padding: 100px;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #FFF;
+    font-weight: 300;
 }
